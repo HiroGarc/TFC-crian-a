@@ -1,0 +1,36 @@
+{
+  "name": "projeto_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.3.0",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.6",
+    "expo-constants": "~17.1.8",
+    "expo-linking": "~7.1.7",
+    "expo-router": "~5.1.11",
+    "expo-status-bar": "~2.2.3",
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "express-session": "^1.19.0",
+    "passport-local": "^1.0.0",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "typescript": "~6.0.3"
+  }
+}
